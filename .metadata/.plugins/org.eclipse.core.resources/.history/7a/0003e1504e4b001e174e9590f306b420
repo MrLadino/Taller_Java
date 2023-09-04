@@ -1,0 +1,18 @@
+public class Principal {
+	
+	/*
+	 * Realice un algoritmo que use un método 
+	 * sin parámetros y sin retorno que imprime 
+	 * en pantalla tu nombre completo:
+	*/
+
+    public static void main(String[] args) {
+        minombre();
+    }
+ static void minombre() {
+        String nombre = "Andrés";
+        String apellido = "Ladino";
+        String nombreCompleto = "Me llamo " + nombre + " " + apellido;
+        System.out.println(nombreCompleto);
+    }
+}
